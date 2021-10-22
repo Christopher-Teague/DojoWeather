@@ -128,3 +128,11 @@ select {
     font-size: smaller;
     margin-right: 5px;
 }
+
+.temp-high {
+    color: red;
+}
+
+.temp-low {
+    color: dodgerblue;
+}
