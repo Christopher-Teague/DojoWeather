@@ -1,0 +1,128 @@
+  /*CSS Reset*/
+* {     
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: auto;
+    margin: 0 10px;
+
+}
+
+.flex { 
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.centered {
+    align-items: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px black;
+}
+
+.btn {
+    color: azure;
+    background-color: dodgerblue;
+    width: 60px;
+    height: 25px;
+    font-size: small;
+}
+    /* Master */
+
+.top-bar {
+    background-color: dodgerblue;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.title {
+    padding-left: 50px;
+    color: white;
+}
+
+.cities {
+    width: 30%;
+    padding: 0 50px;
+    color: white;
+}
+
+.city {
+    height: 60px;
+    border-bottom: 2px solid #333;
+    margin: 0 60px;
+}
+
+.main-body {
+    /* background-color: beige; */
+    margin: 10px 60px;
+    height: 300px;
+}
+
+.days {
+    text-align: center;
+    background-color:lightgray;
+    margin: 1%;
+    padding-top: 2%;
+}
+
+.days img {
+    width: 90%;
+    border-radius: 50%;
+    margin-top: 10%
+}
+
+.days p {
+    margin-top: 10px;
+}
+
+.high-low {
+    margin: 10% 10% 0;
+    justify-content: space-around;
+}
+
+#alert {
+    width: 80%;
+    background-color: white;
+    height: 70px;
+    border: 2px solid #333;
+    position: absolute;
+    top: 400px;
+    padding: 3%;
+}
+
+select {
+    height: 20px;
+}
+
+.f-or-c p {
+    font-size: smaller;
+    margin-right: 5px;
+}

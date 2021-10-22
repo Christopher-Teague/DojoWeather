@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar flex space-between">
+            <div class="title flex centered">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="cities flex space-between centered">
+                <h3>Burbank</h3>
+                <h3>Chicago</h3>
+                <h3>Dallas</h3>
+            </div>
+        </div>
+        <div class="city flex centered space-between">
+            <div class="header">
+                <h2>San Jose</h2>
+            </div>
+            <div class="f-or-c flex space-between centered">
+                <p>Show temperature in:  </p>
+                <select name="f-or-c" id="">
+                    <option value="f">°F</option>
+                    <option value="c">°C</option>
+                </select>
+            </div>
+        </div>
+        <div class="main-body flex">
+            <div class="days">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="">
+                <p>Some Rain</p>
+                <div class="high-low flex space-around">
+                    <div class="temp-high">
+                        xx
+                    </div>
+                    <div class="temp-low">
+                        xx
+                    </div>
+                </div>
+            </div>
+            <div class="days">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="">
+                <p>Some Sun</p>
+                <div class="high-low flex space-around">
+                    <div class="temp-high">
+                        xx
+                    </div>
+                    <div class="temp-low">
+                        xx
+                    </div>
+                </div>
+            </div>
+            <div class="days">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png" alt="">
+                <p>Some Clouds</p>
+                <div class="high-low flex space-around">
+                    <div class="temp-high">
+                        xx
+                    </div>
+                    <div class="temp-low">
+                        xx
+                    </div>
+                </div>
+            </div>
+            <div class="days">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png" alt="">
+                <p>Some Sun</p>
+                <div class="high-low flex space-around">
+                    <div class="temp-high">
+                        xx
+                    </div>
+                    <div class="temp-low">
+                        xx
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex center">    
+            <div id=alert class="flex space-between centered rounded shadow">
+                <div>
+                    <img src="assets/cookie.png" alt="">
+                </div>
+                <div>
+                    <h4>Stop! Cookie time!</h4>
+                    <p>We use cookies (sadly not the edible ones) to personalize<br>
+                        content and ads, to provide social media features and to<br>
+                        analyse our traffic. <a href="#">Read more...</a>
+                    </p>
+                </div>
+                <div>
+                    <button class="btn rounded shadow">I Accept</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
